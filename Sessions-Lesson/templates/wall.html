@@ -1,0 +1,10 @@
+{% extends 'master.html' %}
+<div class="container">
+    {% block body %}
+        <ul>
+        {% for post in wallpost %}
+            <li>{{post}}</li>
+        {% endfor %}
+        </ul>
+     {% endblock %}
+</div>

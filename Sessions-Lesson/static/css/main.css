@@ -1,0 +1,25 @@
+h2 {
+    color: White;
+}
+
+h6{
+    color: White;
+}
+body {
+    background-image: url("../img/back2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+form.signin {
+    width: 330px;
+    margin: 50px auto;
+}
+form.signin input.form-control {
+    margin-bottom: 15px;
+}
+
+form.signin input.btn {
+    margin-top: 15px;
+}
